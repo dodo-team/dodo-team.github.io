@@ -1,1 +1,21 @@
-<h1>노끄 is epic</h1>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+    img {
+      position: relative;
+      transition: 0.3s;
+    }
+    </style>
+  </head>
+  <body>
+    <img src="./도도바보.png">
+    <script>
+    $("img").click(() => {
+      $("img").css("top", Math.random() * 100 + "%")
+      $("img").css("left", Math.random() * 100 + "%")
+      $("img").css("right", Math.random() * 100 + "%")
+    })
+    </script>
+  </body>
+</html>
